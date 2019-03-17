@@ -7,6 +7,6 @@ headers = {
 }
 response = requests.request('GET', url, headers=headers)
 
-collection = open("hello_postman_collection.json", "w")
+collection = open("postcards_postman_collection.json", "w")
 collection.write(response.text)
 collection.close()
