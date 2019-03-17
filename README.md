@@ -53,9 +53,12 @@ E2E testing is done with Cypress.
 
 ### Running the tests
 
-Launch Cypress from root: `npm run cypress:open`. Based on script in `package.json`.
+Cypress can be ran in 2 modes:
 
+* headless: `yarn run cypress:run`
+* debug: `yarn run cypress:open`
 
+The scripts to run Cypress are defined in `package.json`.
 
 ## TO DO
 
