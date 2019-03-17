@@ -61,5 +61,3 @@ Cypress can be ran in 2 modes:
 The scripts to run Cypress are defined in `package.json`.
 
 ## TO DO
-
-* setup Travis
