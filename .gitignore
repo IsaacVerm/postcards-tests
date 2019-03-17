@@ -12,9 +12,6 @@ cypress/videos/
 __pycache__/
 venv/
 
-# postman
-*_collection.json
-
 # secrets
 secrets.py
 
