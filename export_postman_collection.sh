@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# remove existing virtual environment
+rm -rf venv
+
 # create Python 3 virtual environment
 virtualenv -p python3 venv
 

@@ -1,7 +1,7 @@
 import requests
-from secrets import collection_id, postman_api_key
+from secrets import collection_uid, postman_api_key
 
-url = f'https://api.getpostman.com/collections/{collection_id}'
+url = f'https://api.getpostman.com/collections/{collection_uid}'
 headers = {
     'X-Api-Key': postman_api_key
 }
