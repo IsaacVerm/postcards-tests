@@ -49,7 +49,7 @@ Tests can be run in two ways:
 - from the command line
 - on CI using Travis
 
-Run from the command line: `newman run postcards_postman_collection.json -e postcards_postman_environment.json`.
+Run from the command line: `newman run postcards_postman_collection.json`.
 
 ## E2E testing
 
